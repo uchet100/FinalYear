@@ -1,0 +1,149 @@
+@import "compass/css3";
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family : arial;
+    font-size: 80%;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
+    background: #eee;
+
+}
+
+
+nav{
+  background-color: grey;
+  list-style: none;
+  text-align: right;
+  padding: 10px 0 10px 0
+}
+
+nav ul{
+  display: inline-block;
+  padding: 0 10px 0 10px
+}
+
+ nav li a{
+   text-decoration: none;
+   float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+
+nav li {
+    display: inline;
+}
+
+  nav li a:hover{
+  background-color: black;
+  color:white;
+}
+.header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-style: italic;
+  font-size: 180%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.body{
+margin: 30px 30px;
+background: white;
+padding: 20px;
+clear: both;
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-transform: capitalize;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.qa {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+  .textbox {
+  	border:2px solid #456879;
+  	border-radius:10px;
+  	height: 22px;
+  	width: 230px;
+    float: left;
+  }
+  aside {
+    display: block;
+  }
+
+
+
+
+  /* about page code */
+  @import "compass/css3";
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+article {
+ -moz-column-width: 13em;
+ -webkit-column-width: 13em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em;
+
+}
+
+section {
+ display: inline-block;
+ margin:  0.25rem;
+ padding:  1rem;
+ width:  100%;
+ background:  #efefef;
+}
+
+
+p {
+ margin:  1rem 0;
+}
+
+
+
+
+/*  styles for background color, etc; not necessary for this thing to work  */

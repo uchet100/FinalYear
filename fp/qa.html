@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<header>
+<link rel="stylesheet" href="style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</header>
+<div class ="header">
+<div class ="centered"> </div>
+</div>
+
+<body>
+<nav class="topnvan">
+    <ul>
+      <li><a href=index.html> Homepage</a></li>
+      <li><a href=about.html> About ADHD</a></li>
+      <li><a href=qa.html> Question&Answers</a></li>
+      <li><a href=chatroom.html> Chatroom</a></li>
+    </ul>
+  </nav>
+
+    <div class="body">
+        <h1> User asked Questions</h1>
+  <div class="content">
+    <button type="button" class="collapsible">What is the medication like?</button>
+<div class="qa">
+  <p>There are different types of medications for treating ADHD. The medical side effects are listed on the box. One of the side effects no one talks about the changes you feel like you have a reduction in energy. A whole personality transplant as your hyperactively is part of you and then suddenly depending on your type of medicine you get given you suddenly lose that part of yourself until you learn to control it. </p>
+</div>
+<button type="button" class="collapsible">Do you feel medication works? </button>
+<div class="qa">
+<p>Personally, I feel like the medications works better when you are younger. One reason is because as you grow up you start to learn from your experiences, and you start to learn how to control your hyperactivity. But you feel like you can feel the full effect on the medicine during challenging times for examples during exams and busy days..</p>
+</div>
+
+<button type="button" class="collapsible">Are you worried to openly speak about it with others?</button>
+<div class="qa">
+<p>When you are younger you don’t full understand so it hard to speak to other especially as during your doctor appointments the doctors tend to speak to your parents rather than directly at you so this lack of understanding and engagement can result in a lack of confidence to openly speak about it. In other situations, such as school and other places of education people with ADHD may not want to speak about ADHD due to fear of getting stereotyped or being made to feel different from the other teachers. It well known people might not disclosed their ADHD status to their workplace or even during the application process for the fear of not getting the job.</p>
+</div>
+<button type="button" class="collapsible">How can people with ADHD be helped in everyday life?</button>
+<div class="qa">
+<p>Understanding that people with ADHD might not have all the answers but asking us questions. The questions are most important because the conditions varies for everyone and by asking one person how they feel and react to certain situation would be most beneficial.</p>
+</div>
+<button type="button" class="collapsible">How do I manage my symptoms?</button>
+<div class="qa">
+<p>Take time to understand your triggers. Just like every other condition there are tiggers. Some people feel like they only experience the symptoms of their ADHD in educations setting whlsit others only feel it at work.</p>
+</div>
+<button type="button" class="collapsible">How serious is it?</button>
+<div class="qa">
+<p></p>
+</div>
+<button type="button" class="collapsible">Can it be cured?</button>
+<div class="qa">
+<p></p>
+</div>
+<button type="button" class="collapsible">How Does it affect a person socially?</button>
+<div class="qa">
+<p></p>
+</div>
+<button type="button" class="collapsible">How common is it?</button>
+<div class="qa">
+<p></p>
+</div>
+<button type="button" class="collapsible">how do you get diagnosed?</button>
+<div class="qa">
+<p></p>
+</div><button type="button" class="collapsible">Coping strategies with symptoms?
+</button>
+<div class="qa">
+<p></p>
+</div>
+
+    </div>
+    </div>
+<element onload="Click on the question to reveal the answers">
+
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+
+    </script>
+
+
+<footer>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
